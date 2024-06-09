@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game </title>
+    <link rel="stylesheet" href="./css/memoryGame.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <h1>Memory Game</h1>
+    <div id="timer">Timer: 0:00</div>
+    <div id="attempts">Attempts: 0</div>
+    <div id="highScores">High Scores: 0:00</div>
+    <div class="containerButton">
+        <button id="startBtn">lets start </button>
+        <input id="input" type="number" placeholder="How many pairs?" min="1" max="15">
+        <button id="shuffleBtn" style="display:none;">Shuffle Cards</button>
+    </div>
+    <div class="containerMemoryGame"></div>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+.ContainerNav {
+    width: 80%;
+    height: 80px;
+    max-width: 1200px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkcyan;
+    box-shadow: 1vw 1vw 2.5vw white;
+    border-bottom: 0.2vw solid white;
+    border-top: 0.2vw solid white;
+    justify-content: space-evenly;
+}
+
+.ZivShabi {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    font-size: 1.5rem;
+    font-family: 'Rubik Distressed', system-ui;
+}
+
+a:hover {
+    color: yellow;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+#MenuToggle {
+    display: none;
+}
+
+#hamburger {
+    width: 20%;
+    display: none;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    color: darkcyan;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: scale 0.2 ease;
+}
+
+
+#hamburger:hover {
+    scale: 1.05;
+    background-color: white;
+    color: black;
+
+
+}
+
+#hamburger:active {
+    scale: 0.95;
+
+}
+
+
+
+.AttributeSelector a[title="ראשי"] {
+    color: rgb(0, 42, 126);
+}
+
+.AttributeSelector a[title~="אודות"] {
+    color: black;
+}
+
+.AttributeSelector a[title*="שיר"] {
+    color: black;
+}
+
+.AttributeSelector a[title*="צו"] {
+    color: black;
+}

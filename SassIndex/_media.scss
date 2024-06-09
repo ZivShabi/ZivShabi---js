@@ -1,0 +1,364 @@
+//  screen and
+
+@media (max-width:992px) {
+
+    // 
+    #container {
+        width: 100vw;
+    }
+
+    // 
+    .ContainerNav {
+        width: 80%;
+        height: 40px;
+        display: flex;
+
+    }
+
+    #navBarLinks {
+        display: none;
+    }
+
+    #MenuToggle {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        border-radius: 10px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 100vw;
+        height: 25%;
+        margin-top: 20em;
+        margin-left: -14em;
+    }
+
+    input[type="checkbox"]:checked~#navBarLinks {
+        display: block;
+
+    }
+
+
+
+    // 
+    header {
+        max-width: 80vw;
+        min-height: 80vh;
+    }
+
+    .ContainerTitle {
+        padding: 1vw;
+        position: relative;
+        margin: 3em 3em;
+        line-height: 1;
+        width: 80%;
+        min-height: 20vh;
+
+    }
+
+    .ContainerTitle h1 {
+        width: 70vw;
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 1.6rem;
+        color: $textColor;
+        line-height: 2.2;
+
+    }
+
+    .ContainerTitle p {
+        width: 60vw;
+        font-size: 1rem;
+        line-height: 2.2;
+    }
+
+    // 
+    article {
+        width: 80%;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .ImgArticle {
+        width: 100vw;
+        width: 28px;
+        height: 28px;
+        border-radius: 50px;
+        margin: 0.2em;
+    }
+
+    .ContainerZiv .divText {
+        width: 60vw;
+    }
+
+    .ContainerZiv .divImg {
+        width: 70vw;
+        min-height: 60vw;
+    }
+
+    .ContainerZiv {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .text h2 {
+        font-size: 1.4rem;
+    }
+
+    .text p2 {
+        font-size: 0.6rem;
+    }
+
+    .ContainerTitleZiv {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70vw;
+        padding: 10px;
+        line-height: 2;
+    }
+
+
+
+
+    .ContainerButton {
+        width: 70%;
+        background-color: rgb(248, 248, 245);
+        box-shadow: 0.5vw 0.5vw 1vw rgb(248, 248, 245);
+        padding: 10px;
+    }
+
+    .resumes a {
+        width: 40vw;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .resumes:hover {
+        color: rgb(34, 87, 193);
+    }
+
+    // 
+    #SectionCard {
+        width: 70vw;
+    }
+
+    .SelectedWorks {
+        width: 70vw;
+    }
+
+    .SelectedWorks h4 {
+        font-size: 1.3rem;
+    }
+
+    .SelectedWorks p {
+        font-size: 1rem;
+        line-height: 2;
+    }
+
+    .ImgHtmlCss>img {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50px;
+        margin: 0.5em;
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .card1 {
+        background-image: url(../bootstrap/AnlnvitingPage3/img/memoryGame.png);
+        height: 40%;
+        width: 100%;
+        background-position: fill;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .card2 {
+        background-image: url(../bootstrap/AnlnvitingPage4/img/QuizInJS.png);
+        height: 40%;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-position: fill;
+        background-size: cover;
+    }
+
+    .card3 {
+        background-image: url(../bootstrap/AnlnvitingPage/img/Checkers.png);
+        height: 40%;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-position: fill;
+        background-size: cover;
+    }
+
+    .card4 {
+        background-image: url(../bootstrap/AnlnvitingPage5/img/snake.png);
+        height: 40%;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-position: fill;
+        background-size: cover;
+    }
+
+    .card5 {
+        background-image: url(../bootstrap/AnlnvitingPage2/img/ladders&snakes.png);
+        height: 40%;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-position: fill;
+        background-size: cover;
+    }
+
+    .card6 {
+        background-image: url(../bootstrap/AnlnvitingPage6/img/TicTacToe.png);
+        height: 40%;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-position: fill;
+        background-size: cover;
+    }
+
+    .card7 {
+        background-image: url(../bootstrap/AnlnvitingPage7/img/WorldsCountry.png);
+        height: 40%;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        background-position: fill;
+        background-size: cover;
+    }
+
+
+
+
+
+    // 
+    .DivForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ContainerForm {
+        width: 60vw;
+        height: 200vw;
+        text-align: right;
+        margin-left: -6.5em;
+        margin-top: 2em;
+        padding: 15px;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .resumes {
+        width: 40vw;
+        height: 13.5vw;
+        font-size: 0.8rem;
+        border: 2px solid black;
+        box-shadow: 1vw 1vw 2vw black;
+    }
+
+    input {
+        width: 200px;
+        height: 20px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 100px;
+    }
+
+
+
+    .text p5 {
+        font-size: 0.5rem;
+    }
+
+
+    .text h5 {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    // 
+    .ContainerAside {
+        width: 10%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+        line-height: 2;
+    }
+
+    .img_aside {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Imgs_simple-whatsapp {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .Img_linkedin-in {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .Img_facebook-f {
+        flex-wrap: wrap;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .Img_location-on {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+
+    .Img_simple-email {
+        grid-column: 5/6;
+        grid-row: 1/2;
+    }
+
+    .Imgwhatsapp {
+        grid-column: 6/7;
+        grid-row: 1/2;
+    }
+
+    .DivAside {
+        width: 20%;
+        font-size: 0.5rem;
+    }
+
+
+
+
+    // 
+    .text h6 {
+        font-size: 0.3rem;
+    }
+
+    .text p6 {
+        font-size: 0.3rem;
+    }
+
+}

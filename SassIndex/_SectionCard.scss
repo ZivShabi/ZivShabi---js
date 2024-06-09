@@ -1,0 +1,158 @@
+   #SectionCard {
+       margin: auto;
+       width: 80vw;
+   }
+
+   .ContainerCard {
+       background-color: rgb(248, 248, 245);
+       box-shadow: 0.5vw 0.5vw 1vw rgb(248, 248, 245);
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       width: 70vw;
+       margin: auto;
+       display: flex;
+       flex-wrap: wrap;
+       margin: auto;
+       font-size: 1.5rem;
+       gap: 1rem;
+       border-bottom-left-radius: 18px;
+       border-bottom-right-radius: 18px;
+   }
+
+   .card {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-content: center;
+       width: 250px;
+       height: 350px;
+       box-shadow: 3px 3px 12px gray;
+       margin: 1rem auto;
+       margin: 1rem;
+       border-radius: 15px;
+       text-align: center;
+   }
+
+   .card:hover {
+       scale: 1.05;
+   }
+
+   button .CardButton {
+       width: 100px;
+       height: 60px;
+   }
+
+   .CardButton {
+       width: 50%;
+       height: 30px;
+       text-align: center;
+       background-color: darkcyan;
+       border-radius: 8px;
+       border: 1px solid black;
+       margin: 1em auto;
+   }
+
+   .card1 {
+       background-image: url(../bootstrap/AnlnvitingPage3/img/memoryGame.png);
+       height: 40%;
+       background-position: fill;
+       background-size: cover;
+       border-radius: 15px 15px 0 0;
+   }
+
+   .card2 {
+       background-image: url(../bootstrap/AnlnvitingPage4/img/QuizInJS.png);
+       height: 40%;
+       border-radius: 15px 15px 0 0;
+       background-position: fill;
+       background-size: cover;
+   }
+
+   .card3 {
+       background-image: url(../bootstrap/AnlnvitingPage/img/Checkers.png);
+       height: 40%;
+       border-radius: 15px 15px 0 0;
+       background-position: fill;
+       background-size: cover;
+   }
+
+   .card4 {
+       background-image: url(../bootstrap/AnlnvitingPage5/img/snake.png);
+       height: 40%;
+       border-radius: 15px 15px 0 0;
+       background-position: fill;
+       background-size: cover;
+   }
+
+   .card5 {
+       background-image: url(../bootstrap/AnlnvitingPage2/img/ladders&snakes.png);
+       height: 40%;
+       border-radius: 15px 15px 0 0;
+       background-position: fill;
+       background-size: cover;
+   }
+
+   .card6 {
+       background-image: url(../bootstrap/AnlnvitingPage6/img/TicTacToe.png);
+       height: 40%;
+       border-radius: 15px 15px 0 0;
+       background-position: fill;
+       background-size: cover;
+   }
+
+   .card7 {
+       background-image: url(../bootstrap/AnlnvitingPage7/img/WorldsCountry.png);
+       height: 40%;
+       border-radius: 15px 15px 0 0;
+       background-position: fill;
+       background-size: cover;
+   }
+
+   .text h3 {
+       font-size: 1.1em;
+       font-weight: 900;
+       color: darkcyan;
+       text-shadow: black 1px 4px;
+   }
+
+   .SelectedWorks h4 {
+       font-family: 'Times New Roman', Times, serif;
+       line-height: 3;
+       font-size: 2rem;
+       text-shadow: darkcyan 1px 2px;
+   }
+
+   .card>p {
+       font-size: 0.7em;
+       font-weight: 900;
+       color: darkcyan;
+       text-shadow: black 1px 1px;
+   }
+
+   .SelectedWorks p {
+       line-height: 3;
+       font-size: 1.2rem;
+       font-weight: 800;
+       text-shadow: darkcyan 1px 1px;
+   }
+
+   .SelectedWorks {
+       margin: 0 auto;
+       width: 70vw;
+       padding: 2vw;
+       background-color: rgb(248, 248, 245);
+       box-shadow: 0.5vw 0.5vw 1vw rgb(248, 248, 245);
+   }
+
+   .ImgHtmlCss>img {
+       width: 2.2vw;
+       height: 2.2vw;
+       border-radius: 50px;
+       margin: 0.5em;
+   }
+
+   .ImgHtmlCss {
+       min-width: 100px;
+       max-height: 30px;
+   }

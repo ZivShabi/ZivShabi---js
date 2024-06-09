@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/ladders&snakes.css">
+    <script src="./js/ladders&snakes.js" defer></script>
+    <title>ladders&snakes</title>
+</head>
+
+<body dir="rtl">
+    <div id="gameBoard" style="display: none;"></div>
+    <div id="diceImgContainer" class="hide">
+        <img id="diceImg" src="imgLasssers&snake/diceNumber1.png" alt="Dice Image">
+    </div>
+    <div id="dice" class="dice">
+
+        <button onclick="startRolling()">2 3 שגרר קוביה </button>
+
+    </div>
+    <audio id="rollSound" src="roll_sound.mp3"></audio>
+    <div class="mission"></div>
+
+
+
+
+    <div id="gameSetup" class="snake ladder" style=" animation: snakeAnimation 2s ease-in-out;">
+        <div class=""> <button onclick="startGame()">התחל משחק</button></div>
+        <div class="">
+            <label for="boardSize">בחירת גודל לוח:</label>
+            <input type="number" id="boardSize">
+            <button onclick="updateBoardSize()">עדכן גודל לוח</button>
+        </div>
+        <div>
+            <label for="snakeAndLadderCount">מספר הנחשים והסולמות:</label>
+            <input type="number" id="snakeAndLadderCount">
+            <button onclick="updateSnakesAndLadders()">עדכן הנחשים והסולמות</button>
+        </div>
+        <div class="">
+            <label for="playerCount">מספר השחקנים:</label>
+            <input type="number" id="playerCount">
+            <button onclick="submitPlayerNames()">עדכן שמות</button>
+        </div>
+        <div class="">
+            <label for="snakeAndLadderSize">בחירת גודל הנחשים והסולמות:</label>
+            <input type="number" id="snakeAndLadderSize">
+            <button onclick="updateSnakeAndLadderSize()">עדכן גודל הנחשים והסולמות</button>
+            <button onclick="moveSnakesAndLaddersRandom()">הזזת הנחשים והסולמות</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

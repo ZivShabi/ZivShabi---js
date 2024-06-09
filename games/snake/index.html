@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/snake.js" defer></script>
+    <link rel="stylesheet" href="./css/snake.css">
+
+
+    <title>Snake</title>
+</head>
+
+<body onload="createBoard()">
+    <h1>סניק</h1>
+
+    <div id="board"></div>
+    <div class="divText"></div>
+    <div id="score">
+        Score: <span>0</span>
+    </div>
+    <button id="newGame" onclick="newGame()">משחק חדש</button>
+
+
+    <div class="arrow-buttons">
+        <div class="arrow-button" id="right">→</div>
+        <div class="arrow-button" id="up">↑</div>
+        <div class="arrow-button" id="down">↓</div>
+        <div class="arrow-button" id="left">←</div>
+    </div>
+
+</body>
+
+</html>

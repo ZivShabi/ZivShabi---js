@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*  */
+#body {
+    width: 100vw;
+    background-color: darkgray;
+}
+
+.ContainerPage {
+    width: 80%;
+    height: 176vh;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/*  */
+
+
+
+
+/*  */
+.navbar {
+    width: 100%;
+    font-family: 'Rubik Broken Fax', system-ui;
+    text-align: center;
+    font-size: 1.5rem;
+    position: fixed;
+    color: #8f964b;
+}
+
+
+.ZivShabi {
+    width: 50px;
+    height: 50px;
+    border: radius 50px;
+}
+
+.NavText {
+    color: rgb(67, 90, 91);
+    font-family: 'Rubik Broken Fax',
+        system-ui;
+    display: flex;
+    gap: 30px;
+}
+
+/*  */
+
+
+
+
+
+
+
+
+/*  */
+article {
+    max-width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.ContainerButtons {
+    width: 80vw;
+    height: 4vw;
+    padding: 6px;
+    display: flex;
+
+}
+
+.ContainerDivTitle {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 1vh;
+}
+
+.music {
+    width: 20%;
+}
+
+.DivTitle {
+    width: 75vw;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin: 5em 0;
+}
+
+
+.DivButton {
+    width: 60vw;
+    text-align: right;
+}
+
+.DivButton>button {
+    width: 30%;
+    height: 44px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: darkcyan;
+    margin: 1em;
+
+}
+
+/*  */
+
+
+
+
+
+
+
+/*  */
+.text h1 {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.text h1:hover {
+    color: white;
+}
+
+.text p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: darkcyan;
+}
+
+
+button>a {
+    font-size: medium;
+    color: white;
+    font-family: 'Rubik Broken Fax',
+        system-ui;
+    font-size: 1.2rem;
+}
+
+/*  */
+
+
+
+
+
+
+/*  */
+aside {
+    max-width: 80vw;
+    height: 10vh;
+    position: relative;
+    margin: 3em 0;
+    background-color: white;
+    text-align: center;
+    background-color: darkgray;
+    margin: 0 auto;
+}
+
+aside img {
+    position: relative;
+    margin: 0.7em 5em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+/*  */
+
+
+
+
+
+
+/*  */
+section {
+    text-align: center;
+    max-width: 80vw;
+    max-height: 80vh;
+    padding: 2em;
+    position: relative;
+    margin: 4em 0;
+    background-color: black;
+}
+
+img[ src="./img/מכאן ניתן להגיעה אלינו.png"],
+[src="./img/עותק של coffee.png"],
+[src="./img/מתי לאחרונה טסתם לטיול בחול .png"],
+[src="./img/אנחנו מזמינים אותכם לתערוכה שלנו .png"],
+[src="./img/גם לכם מגיע להתחדש בטלפון חדש.png"],
+[src="./img/עותק של שרותי אחריות אצלנו הם לשלוש שנים.png"],
+[src="./img/עותק של לחשוב מחוץ לקופסה.png"],
+img[src="./img/Checkers.png"],
+img[src="./img/ladders&snakes.png"],
+img[src="./img/memoryGame.png"],
+img[src="./img/QuizInJS.png"],
+img[src="./img/snake.png"],
+img[src="./img/TicTacToe.png"],
+img[src="./img/WorldsCountry.png"] {
+    width: 80%;
+    height: 40%;
+    margin-top: -1em;
+}
+
+/*  */
+
+
+
+
+
+/*  */
+footer {
+    width: 80vw;
+    height: 8vh;
+    margin-top: 8em;
+    background-color: darkcyan;
+    border-bottom: 3px solid black;
+}
+
+
+
+footer .textFooter {
+    font: 1.4rem 'Rubik Vinyl',
+        system-ui;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+
+/*  */
+@media screen and (max-width:765px) {
+    .ContainerPage {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .NavText {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .container-fluid {
+        display: flex;
+    }
+
+    /*  */
+    .DivButton>button {
+        width: 60%;
+        height: 50px;
+        font-size: 0.8rem;
+        color: white;
+        background-color: darkcyan;
+    }
+
+    .DivButton {
+        width: 80vw;
+        text-align: center;
+        margin-top: -3em;
+    }
+
+    .music {
+        display: none;
+    }
+
+    h1 {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+
+
+    aside {
+        width: 80%;
+        height: 50px;
+        background-color: white;
+        text-align: center;
+        background-color: black;
+        display: flex;
+        margin: 6em auto;
+        padding: 0.5em;
+    }
+
+    aside img {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        margin: 0 auto;
+    }
+
+
+
+
+    /*  */
+
+    section {
+        text-align: center;
+        width: 100vw;
+        height: 50vw;
+        background-color: black;
+    }
+
+    img[ src="./img/מכאן ניתן להגיעה אלינו.png"],
+    img[src="./img/עותק של coffee.png"],
+    img[src="./img/מתי לאחרונה טסתם לטיול בחול .png"],
+    img[src="./img/אנחנו מזמינים אותכם לתערוכה שלנו .png"],
+    img[src="./img/גם לכם מגיע להתחדש בטלפון חדש.png"],
+    img[src="./img/עותק של שרותי אחריות אצלנו הם לשלוש שנים.png"],
+    img[src="./img/עותק של לחשוב מחוץ לקופסה.png"],
+    img[src="./img/Checkers.png"],
+    img[src="./img/ladders&snakes.png"],
+    img[src="./img/memoryGame.png"],
+    img[src="./img/QuizInJS.png"],
+    img[src="./img/snake.png"],
+    img[src="./img/TicTacToe.png"],
+    img[src="./img/WorldsCountry.png"] {
+        width: 40vw;
+        height: 100%;
+    }
+
+    .textFooter {
+        font: 0.8rem 'Rubik Vinyl',
+            system-ui;
+        color: black;
+        margin-left: 20px;
+    }
+
+
+
+
+}

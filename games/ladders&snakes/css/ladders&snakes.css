@@ -1,0 +1,222 @@
+ body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     background-color: #f0f0f0;
+     margin: 0;
+     padding: 0;
+ }
+
+ #gameSetup,
+ #gameBoard {
+     padding: 10px;
+     border: 1px solid #ccc;
+     background-color: #ddd;
+     max-width: 1200px;
+     border-radius: 8px;
+ }
+
+ #gameBoard {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+     gap: 3px;
+     margin: 5% auto;
+ }
+
+ .cell {
+     width: 50px;
+     height: 50px;
+     border: 1px solid #c2b9b9;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-size: 24px;
+     font-weight: bold;
+     background-color: #a6cf86c5;
+     display: inline-flex;
+ }
+
+ .player {
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: red;
+     position: absolute;
+ }
+
+ .special-player {
+     background-size: cover;
+ }
+
+ .player:nth-child(2) {
+     background-color: blue;
+ }
+
+ .player:nth-child(3) {
+     background-color: green;
+ }
+
+ .cell .snake {
+     width: auto;
+     position: absolute;
+     bottom: 0;
+     width: 16px;
+     background: linear-gradient(45deg, #ff0000, #800000);
+     border-radius: 1% 100% 1% 100%;
+     overflow: hidden;
+     transform-origin: top left;
+ }
+
+ .snake .head,
+ .snake .eye {
+     position: absolute;
+     width: 30px;
+     height: 30px;
+     background-color: #fcfcfc;
+     border: 2px solid black;
+     border-radius: 50%;
+ }
+
+ .snake .head {
+     top: -15px;
+     left: -15px;
+ }
+
+ .snake .eye:before {
+     content: '';
+     position: absolute;
+     width: 4px;
+     height: 4px;
+     background-color: black;
+     border-radius: 50%;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .cell .ladder {
+     width: 20px;
+     position: absolute;
+     bottom: 0;
+     background-color: green;
+     opacity: 0.5;
+     z-index: 1;
+ }
+
+ .ladder .steps {
+     position: relative;
+     width: 100%;
+     height: 100%;
+ }
+
+ .ladder .step {
+     position: absolute;
+     width: 50%;
+     height: 24%;
+     left: 4px;
+     background-color: #ffffff;
+     border: 1px solid #000000;
+ }
+
+ .ladder .step:nth-child(1) {
+     bottom: 0;
+ }
+
+ .ladder .step:nth-child(2) {
+     bottom: 25%;
+ }
+
+ .ladder .step:nth-child(3) {
+     bottom: 50%;
+ }
+
+ .ladder .step:nth-child(4) {
+     bottom: 75%;
+ }
+
+ .dice {
+     width: 180px;
+     height: 100px;
+     cursor: pointer;
+     position: relative;
+     margin: 18px auto;
+ }
+
+ #diceImg {
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+ }
+
+ .dice img,
+ .dice span {
+     position: absolute;
+     top: 60px;
+     left: 50%;
+     min-width: 50%;
+     max-height: 50%;
+ }
+
+ @keyframes snakeAnimation {
+     0% {
+         transform: scale(0);
+     }
+
+     100% {
+         transform: scale(1);
+     }
+ }
+
+ .mission {
+     border: 0px solid 405641;
+     font-size: 1.6em;
+     font-weight: 900;
+     color: rgb(167, 216, 6);
+     background-color: #405641;
+     width: max-content;
+     margin: 0 auto;
+     padding: 10px 10px;
+     position: relative;
+     top: -2px;
+     display: none;
+ }
+
+ #gameSetup {
+     min-width: 50%;
+     max-height: 50%;
+     position: relative;
+     text-align: center;
+     margin: 20px auto;
+     padding: 50px 10px 10px 50px;
+ }
+
+ .active {
+     border: 2px solid #000;
+ }
+
+ button {
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin: 10px;
+ }
+
+ button:hover {
+     background-color: #3e8e41;
+     transform: scale(1.05);
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ label,
+ input[type="number"] {
+     font-size: 18px;
+     padding: 10px;
+     margin: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }

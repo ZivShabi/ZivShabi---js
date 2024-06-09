@@ -1,0 +1,73 @@
+.color {
+    background-color: rgba(37, 34, 34, 0.88);
+
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#cards-container {
+    background-color: #343a40;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* כותרת */
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+h1,
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(253, 209, 106);
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* כפתור חיפוש */
+.input-group-append {
+    cursor: pointer;
+}
+
+.input-group-text {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+
+.card-img-top {
+    height: 35%;
+    object-fit: contain;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* אנימציות */
+.card-img-top,
+.card:hover .card-img-top {
+    transition: height 0.3s, border-bottom 0.3s;
+}

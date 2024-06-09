@@ -1,0 +1,21 @@
+.container_footer {
+    display: flex;
+    width: 80vw;
+    height: 2.5vh;
+    background-color: black;
+    box-shadow: 0.5vw 0.5vw 1vw black;
+    margin: 0 auto;
+}
+
+.text h6 {
+    width: 10vw;
+    font-size: 1rem;
+    color: $textColor;
+}
+
+.text p6 {
+    width: 68vw;
+    font-size: 0.8rem;
+    text-align: right;
+    color: $textColor;
+}

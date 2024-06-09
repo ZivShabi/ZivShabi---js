@@ -1,0 +1,60 @@
+.ContainerAside {
+    width: 80%;
+    height: 130px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    background-color: darkcyan;
+    box-shadow: 0.5vw 0.5vw 1vw darkcyan;
+    border-bottom: 0.2vw solid white;
+    border-top: 0.2vw solid white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    line-height: 2;
+
+
+}
+
+.img_aside {
+    margin-top: 1.5vw;
+    width: 30px;
+    height: 30px;
+}
+
+.Imgs_simple-whatsapp {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.Img_linkedin-in {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.Img_facebook-f {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.Img_location-on {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.Img_simple-email {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+.Imgwhatsapp {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+
+.DivAside {
+    font-size: 0.8rem;
+}
